@@ -6,6 +6,9 @@ members = [
 
 [workspace.dependencies]
 soroban-sdk = "21.0.0"
+smart-wallet = { git = "https://github.com/kalepail/passkey-kit.git", branch = "next-dima" }
+smart-wallet-interface = { git = "https://github.com/kalepail/passkey-kit.git", branch = "next-dima" }
+
 
 [profile.release]
 opt-level = "z"
